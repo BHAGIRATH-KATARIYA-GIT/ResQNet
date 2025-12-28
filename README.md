@@ -111,11 +111,7 @@ A full-stack real-time incident tracking system built with React, Redux Toolkit,
    npm install
    ```
    
-   Create a `.env` file (optional):
-   ```env
-   VITE_API_URL=http://localhost:5000/api/incidents
-   VITE_SOCKET_URL=http://localhost:5000
-   ```
+
 
 4. **Start MongoDB** (if running locally):
    ```bash
@@ -222,20 +218,6 @@ A full-stack real-time incident tracking system built with React, Redux Toolkit,
 - Media uploads are stored as file paths/names (implement actual storage service for production)
 - Tailwind CSS provides responsive, modern UI styling
 
-## 🚀 Production Deployment
 
-For production deployment:
 
-1. Update environment variables with production URLs
-2. Configure proper media storage (AWS S3, Cloudinary, etc.)
-3. Add authentication middleware
-4. Enable HTTPS
-5. Set up proper CORS policies
-6. Configure MongoDB indexes for performance
-7. Add rate limiting and security middleware
-8. Set up monitoring and logging
-
-## 📄 License
-
-This project is provided as-is for educational and development purposes.
 
